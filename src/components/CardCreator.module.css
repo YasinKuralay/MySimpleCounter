@@ -1,0 +1,18 @@
+.cardCreator {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 60px;
+  height: 200px;
+  width: 170px;
+}
+
+.faPlusSquare {
+  filter: drop-shadow(4px 4px 5px black);
+}
+
+.faPlusSquare:hover {
+  color: rgb(238, 236, 236);
+  cursor: pointer;
+  transform: translateY(2px) translateX(2px);
+  filter: drop-shadow(2px 2px 5px black);
+}

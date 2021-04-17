@@ -1,0 +1,8 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 30%;
+}

@@ -1,0 +1,84 @@
+.card {
+  position: relative;
+  height: 200px;
+  width: 170px;
+  background-color: #fff;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 5px black;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  position: relative;
+  max-width: 120px;
+  top: 10px;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  word-break: break-all; /* border: none; */
+}
+
+.counterNumber {
+  position: relative;
+  display: block;
+  font-size: 2em;
+  margin-top: 50px;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  padding: 0px;
+  height: 50px;
+  width: 50%;
+  left: 85px;
+  transform: translateX(-50%);
+  text-align: center;
+  border: none;
+}
+
+.counterNumber.can-focus:focus {
+  height: 44px;
+  border: 3px solid black;
+}
+
+.editCountNumber {
+  display: none;
+  position: absolute;
+  top: 86px;
+  font-size: 9px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+.counterSection:hover > .editCountNumber {
+  display: inline;
+}
+
+.counterIncrementDecrementContainer {
+  height: 60px;
+}
+
+.counterIncrementDecrementContainer:hover > .decrementor {
+  display: inline;
+}
+
+.incrementor {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.decrementor {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 164px;
+}
+
+.deleter {
+  cursor: pointer;
+  position: absolute;
+  top: 87%;
+  right: 5%;
+  padding: 2px;
+}
