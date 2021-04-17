@@ -11,6 +11,7 @@
   position: fixed;
   right: 2%;
   top: 3%;
+  z-index: 2;
 }
 
 .nav.active {
